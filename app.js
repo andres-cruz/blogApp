@@ -33,7 +33,7 @@ app.get('/blogs', function(req, res){
       res.render('index', {blogs: blogs});
     }
   })
-}); //app scope
+}); //app scopes
 
 
 
